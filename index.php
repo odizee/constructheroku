@@ -457,7 +457,7 @@ if(isset($_POST['submit']))
         <div class="col-md-3 foot-col sub">
             <h4>SUBSCRIBE</h4>
 <!--
-            <form class="form" method="post">
+            <form class="form" method="post" action="mysql://b651c4aa83ecdb:8cd26457@us-cdbr-east-02.cleardb.com/heroku_a87c9ec0740c51e?reconnect=true">
 			<label for="email" type="email" name="email"></label>
 			<input class="form-control" name="email" type="text">
 			<input type="submit" value="SUBSCRIBE" class="btn btn-default btn-foot">
