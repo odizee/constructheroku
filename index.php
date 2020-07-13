@@ -4,7 +4,7 @@ $mobile="";
 if(isset($_POST['submit']))
 {
     $email=$_POST['email'];
-    $conn=new mysqli("localhost","root", "", "register");
+    $conn=new mysqli("mysql://b651c4aa83ecdb:8cd26457@us-cdbr-east-02.cleardb.com/heroku_a87c9ec0740c51e?reconnect=true","root", "", "register");
     $cmd="INSERT into reg value('$email');";
     if(mysqli_query($conn, $cmd))
     {
